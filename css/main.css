@@ -22,3 +22,21 @@ img {
 .text-box p {
     font-size: 16px;
 }
+h1 {
+     text-align: center;
+     white-space: nowrap; /* Evita que el texto se divida en múltiples líneas */
+     font-size: 60px; /* Ajusta el tamaño del texto según sea necesario */
+}
+/* div {
+       width:300px;
+       margin:auto;
+} */
+.container {
+     display: flex;
+     justify-content: center; /* Centra horizontalmente */ 
+     gap: 10px; /* Espacio entre enlaces */
+}
+a {
+            text-decoration: none;
+            color: #007bff;
+        }
